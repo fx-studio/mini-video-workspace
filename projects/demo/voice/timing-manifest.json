@@ -1,0 +1,26 @@
+{
+  "total_ms": 16268,
+  "segments": [
+    {
+      "id": "s1",
+      "start_ms": 0,
+      "end_ms": 5976,
+      "say": "Đây là xưởng làm video dọc mini: bạn viết kịch bản, chạy một lệnh là có video.",
+      "show": "MỘT LỆNH"
+    },
+    {
+      "id": "s2",
+      "start_ms": 6226,
+      "end_ms": 10810,
+      "say": "Giọng đọc sinh bằng edge-tts, mốc thời gian đo trên từng file thật.",
+      "show": "GIỌNG THẬT"
+    },
+    {
+      "id": "s3",
+      "start_ms": 11060,
+      "end_ms": 16268,
+      "say": "Hình vẽ bằng HTML, chụp từng khung rồi ghép thành mp4 có tiếng.",
+      "show": "RA MP4"
+    }
+  ]
+}
