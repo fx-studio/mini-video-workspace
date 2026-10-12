@@ -1,0 +1,8 @@
+{
+  "title": "Xưởng video mini",
+  "segments": [
+    { "id": "s1", "say": "Đây là xưởng làm video dọc mini: bạn viết kịch bản, chạy một lệnh là có video.", "show": "MỘT LỆNH" },
+    { "id": "s2", "say": "Giọng đọc sinh bằng edge-tts, mốc thời gian đo trên từng file thật.", "show": "GIỌNG THẬT" },
+    { "id": "s3", "say": "Hình vẽ bằng HTML, chụp từng khung rồi ghép thành mp4 có tiếng.", "show": "RA MP4" }
+  ]
+}

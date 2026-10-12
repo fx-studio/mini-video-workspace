@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.DS_Store
+# sinh ra mỗi lần chạy make.py: dựng lại được
+projects/*/voice/
+projects/*/out/
