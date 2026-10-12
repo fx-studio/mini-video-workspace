@@ -13,6 +13,30 @@ Repo gồm ba thứ:
 
 Repo đi kèm loạt video **Xưởng video AI** của Fx Studio.
 
+## Demo
+
+Video mẫu dựng từ [`projects/demo/script.json`](projects/demo/script.json) bằng đúng một lệnh
+`.venv/bin/python make.py projects/demo`: 3 cảnh, 16,3 giây, 1080×1920, 30 fps, có giọng đọc.
+
+<p align="center">
+  <a href="projects/demo/out/video.mp4">
+    <img src="projects/demo/out/xem.jpg" alt="Ba khung hình của video demo: MỘT LỆNH, GIỌNG THẬT, RA MP4" width="720">
+  </a>
+  <br>
+  <a href="projects/demo/out/video.mp4"><b>▶ Xem video demo (mp4, có tiếng)</b></a>
+</p>
+
+Kịch bản của video này chỉ có ba dòng:
+
+```json
+{ "id": "s1", "say": "Đây là xưởng làm video dọc mini: bạn viết kịch bản, chạy một lệnh là có video.", "show": "MỘT LỆNH" },
+{ "id": "s2", "say": "Giọng đọc sinh bằng edge-tts, mốc thời gian đo trên từng file thật.", "show": "GIỌNG THẬT" },
+{ "id": "s3", "say": "Hình vẽ bằng HTML, chụp từng khung rồi ghép thành mp4 có tiếng.", "show": "RA MP4" }
+```
+
+`show` là chữ to giữa màn hình, `say` là lời đọc kiêm phụ đề. Thanh cam trên cùng chạy theo thời lượng giọng thật.
+Chạy lại `make.py` sẽ ghi đè `projects/demo/out/`, nên video bạn tự dựng có thể khác vài mili giây do giọng đọc.
+
 ## Xưởng chạy thế nào
 
 ```
